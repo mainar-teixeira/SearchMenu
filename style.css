@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    html, body {
+        align-items: baseline !important;
+    }
+
+    .layout {
+        margin-top: 100px;
+        transform: scale(1.4);
+    }
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins/Poppins-Bold.ttf);
+}
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 245, 245);
+    transition: 0.4s;
+}
+
+h3 {
+    font-family: Poppins;
+    font-size: 15px;
+    color: black;
+    transition: 0.4s;
+}
+
+.layout {
+    position: relative;
+    border: 1px solid rgb(226, 226, 226);
+    box-shadow: 0 0 1px 0.1px black;
+    border-radius: 5px;
+    padding: 20px;
+    transition: 0.4s;
+}
+
+input {
+    background-color: rgb(216, 216, 216);
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    height: 20px;
+    border: none;
+    transition: 0.4s;
+}
+
+.content-log {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.them {
+    position: relative;
+    margin-left: auto;
+    width: 30px;
+    height: 15px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+.ball {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.4ss;
+}
+
+.ball:hover {
+    background-color: rgb(110, 110, 110);
+    transition: 0.4s;
+}
+
+input:focus {
+    border: none;
+    outline: 2px solid gray;
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+    position: relative;
+    padding: 15px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+
